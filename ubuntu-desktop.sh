@@ -16,7 +16,7 @@ apt purge -y rhythmbox thunderbird
 apt upgrade -y
 
 apt install -y software-center chromium-browser geany filezilla vlc gparted clementine compizconfig-settings-manager \
-hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim htops transmission-gtk
+hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim htop transmission-gtk
 
 apt -y autoremove
 apt -y autoclean
