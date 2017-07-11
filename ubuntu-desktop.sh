@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#Script to install for Ubutnu Unity desktop to install some of the software I use
+#Script to install for Ubuntu Unity desktop to install some of the software I use
 #Should be run as root
 
 #Add additional repositories
@@ -16,7 +16,7 @@ apt purge -y rhythmbox thunderbird
 apt upgrade -y
 
 apt install -y software-center chromium-browser geany filezilla vlc gparted clementine compizconfig-settings-manager \
-hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim htop transmission-gtk
+hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 htop transmission-gtk
 
 apt -y autoremove
 apt -y autoclean
