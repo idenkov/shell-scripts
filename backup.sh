@@ -14,13 +14,13 @@ FREEHD=`df -h`
 #This will remove files older than 35 days
 find $DIR/* -mtime +35 -exec rm -rf {} \;
 
-$TAR -cvf $DIR/Backup-$DATE.tar /var/www
+$TAR zcvf $DIR/Backup-$DATE.tar.gz /var/www
 for DATABASE in $DBS
 do
 if [ $DATABASE != "Database" ]; then
 FILENAME=$DATABASE
 $MYSQLDUMP -u root -h localhost -p$PASS $DATABASE > $DIR/$FILENAME.sql
-$TAR -rvf $DIR/Backup-$DATE.tar $DIR/$FILENAME.sql
+$TAR rvf $DIR/Backup-$DATE.tar.gz $DIR/$FILENAME.sql
 fi
 done
 
