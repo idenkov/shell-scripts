@@ -3,6 +3,10 @@
 #Script for some software installation and configuration on Ubuntu desktop
 #To run: wget -0 - https://raw.githubusercontent.com/idenkov/shell-scripts/master/ubuntu-desktop.sh | bash
 
+#Stupid hack to remove repos added furher, to avoid duplicate repos
+sudo add-apt-repository -r ppa:nextcloud-devs/client
+sudo add-apt-repository -r ppa:gencfsm
+
 #Add additional repositories
 sudo add-apt-repository -y ppa:nextcloud-devs/client
 sudo add-apt-repository -y ppa:gencfsm
