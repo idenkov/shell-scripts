@@ -4,19 +4,24 @@
 #Should be run as root
 
 #Add additional repositories
-add-apt-repository -y ppa:nextcloud-devs/client
-add-apt-repository -y ppa:gencfsm
+sudo add-apt-repository -y ppa:nextcloud-devs/client
+sudo add-apt-repository -y ppa:gencfsm
 
 #Update
-apt update
+sudo apt update
 
 #Remove unsused software
-apt purge -y rhythmbox thunderbird
+sudo apt purge -y rhythmbox thunderbird
 
-apt upgrade -y
+sudo apt upgrade -y
 
-apt install -y software-center chromium-browser geany filezilla vlc gparted clementine compizconfig-settings-manager \
-hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 htop transmission-gtk
+sudo apt install -y chromium-browser comptin geany filezilla vlc gparted clementine compizconfig-settings-manager \
+hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools htop transmission-gtk
 
-apt -y autoremove
-apt -y autoclean
+sudo apt -y autoremove
+sudo apt -y autoclean
+
+#Getting some config files
+curl -o ~/.config/i3blocks/i3blocks.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/i3blocks.conf
+curl -o ~/.config/compton.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/compton.conf
+curl -o ~/config/i3/config https://raw.githubusercontent.com/idenkov/configs/master/i3/config-desktop
