@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 #Script for some software installation and configuration on Ubuntu desktop
+#To run: wget -0 - https://raw.githubusercontent.com/idenkov/shell-scripts/master/ubuntu-desktop.sh | bash
 
 #Add additional repositories
 sudo add-apt-repository -y ppa:nextcloud-devs/client
@@ -14,7 +15,7 @@ sudo apt purge -y rhythmbox thunderbird
 
 sudo apt upgrade -y
 
-sudo apt install -y chromium-browser comptin geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk
+sudo apt install -y chromium-browser compton geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk
 
 sudo apt -y autoremove
 sudo apt -y autoclean
