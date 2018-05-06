@@ -14,8 +14,7 @@ sudo apt purge -y rhythmbox thunderbird
 
 sudo apt upgrade -y
 
-sudo apt install -y chromium-browser comptin geany filezilla vlc gparted clementine compizconfig-settings-manager \
-hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk
+sudo apt install -y chromium-browser comptin geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk
 
 sudo apt -y autoremove
 sudo apt -y autoclean
