@@ -1,7 +1,6 @@
 #!/bin/bash
 #
-#Script to install for Ubuntu Unity desktop to install some of the software I use
-#Should be run as root
+#Script for some software installation and configuration on Ubuntu desktop
 
 #Add additional repositories
 sudo add-apt-repository -y ppa:nextcloud-devs/client
@@ -16,7 +15,7 @@ sudo apt purge -y rhythmbox thunderbird
 sudo apt upgrade -y
 
 sudo apt install -y chromium-browser comptin geany filezilla vlc gparted clementine compizconfig-settings-manager \
-hexchat virt-manager gimp pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools htop transmission-gtk
+hexchat virt-manager pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk
 
 sudo apt -y autoremove
 sudo apt -y autoclean
