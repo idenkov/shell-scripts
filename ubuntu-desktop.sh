@@ -15,7 +15,7 @@ sudo add-apt-repository -y ppa:gencfsm
 sudo apt update
 
 #Remove unsused software
-sudo apt purge -y rhythmbox thunderbird
+sudo apt purge -y rhythmbox thunderbird gnome-getting-started-docs gnome-user-docs gnome-user-guide
 
 sudo apt upgrade -y
 
