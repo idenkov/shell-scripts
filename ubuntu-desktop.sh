@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #Script for some software installation and configuration on Ubuntu desktop
-#To run: wget -0 - https://raw.githubusercontent.com/idenkov/shell-scripts/master/ubuntu-desktop.sh | bash
+#To run: wget -O - https://raw.githubusercontent.com/idenkov/shell-scripts/master/ubuntu-desktop.sh | bash
 
 #Stupid hack to remove repos added furher, to avoid duplicate repos
 sudo add-apt-repository -r ppa:nextcloud-devs/client
