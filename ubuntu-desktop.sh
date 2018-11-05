@@ -19,7 +19,7 @@ sudo apt purge -y rhythmbox thunderbird gnome-getting-started-docs gnome-user-do
 
 sudo apt upgrade -y
 
-sudo apt install -y chromium-browser compton geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk git
+sudo apt install -y chromium-browser compton geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk git policykit-desktop-privileges policykit-1-gnome
 
 sudo apt -y autoremove
 sudo apt -y autoclean
@@ -31,4 +31,4 @@ mkdir -p ~/.config/i3blocks/ ~/config/i3/
 curl -o ~/.config/i3blocks/i3blocks.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/i3blocks.conf
 curl -o ~/.config/compton.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/compton.conf
 curl -o ~/.config/i3/config https://raw.githubusercontent.com/idenkov/configs/master/i3/config-desktop
-curl -o ~.vimrc https://raw.githubusercontent.com/idenkov/configs/master/.vimrc
+curl -o ~/.vimrc https://raw.githubusercontent.com/idenkov/configs/master/.vimrc
