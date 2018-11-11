@@ -19,7 +19,7 @@ sudo apt purge -y rhythmbox thunderbird gnome-getting-started-docs gnome-user-do
 
 sudo apt upgrade -y
 
-sudo apt install -y chromium-browser compton geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks suckless-tools apg htop transmission-gtk git policykit-desktop-privileges policykit-1-gnome net-tools
+sudo apt install -y chromium-browser compton geany filezilla vlc gparted clementine compizconfig-settings-manager hexchat virt-manager curl whois pcmanfm gnome-encfs-manager nextcloud-client psensor vim i3 i3blocks xautolock suckless-tools apg htop transmission-gtk git policykit-desktop-privileges policykit-1-gnome net-tools
 
 sudo apt -y autoremove
 sudo apt -y autoclean
