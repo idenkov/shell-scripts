@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script by Ivan Denkov to get only CIDR from json files looking like this:
+#Script by Ivan Denkov to get only CIDR from json files looking like this, and make them usable for Nginx config:
 #[
 #  "103.243.12.0/22",
 #  "159.180.64.0/19",
