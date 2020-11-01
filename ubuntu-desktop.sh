@@ -5,11 +5,9 @@
 
 #Stupid hack to remove repos added furher, to avoid duplicate repos
 sudo add-apt-repository -r ppa:nextcloud-devs/client
-sudo add-apt-repository -r ppa:gencfsm
 
 #Add additional repositories
 sudo add-apt-repository -y ppa:nextcloud-devs/client
-sudo add-apt-repository -y ppa:gencfsm
 
 #Update
 sudo apt update
