@@ -29,4 +29,4 @@ mkdir -p ~/.config/i3blocks/ ~/config/i3/
 curl -o ~/.config/i3blocks/i3blocks.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/i3blocks.conf
 curl -o ~/.config/compton.conf https://raw.githubusercontent.com/idenkov/configs/master/i3/compton.conf
 curl -o ~/.config/i3/config https://raw.githubusercontent.com/idenkov/configs/master/i3/config-desktop
-curl -o ~/.vimrc https://raw.githubusercontent.com/idenkov/configs/master/.vimrc
+curl -o ~/.vimrc https://raw.githubusercontent.com/idenkov/dotfiles/master/.vimrc
